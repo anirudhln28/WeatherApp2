@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/DailyForecastDate"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_width="130dp" />
+
+    <ImageView
+        android:layout_height="100dp"
+        android:id="@+id/DailyForecastIcon"
+        android:layout_width="130dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/DailyForecastTemp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_width="130dp" />
+</LinearLayout>

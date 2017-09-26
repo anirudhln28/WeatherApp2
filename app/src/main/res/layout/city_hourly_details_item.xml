@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="287dp"
+        android:layout_width="48dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <View
+            android:id="@+id/verticalSeperator1"
+            android:layout_width="5dp"
+            android:layout_height="182dp"
+            android:background="?attr/colorControlHighlight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="240dp"
+        android:gravity="center_horizontal"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastTime"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/HourlyForecastIcon"
+            android:contentDescription="@string/HourlyImage"
+            android:layout_height="100dp"
+            android:layout_width="100dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastTemp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastCond"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastPressure"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastHumidity"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourlyForecastWind"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <View
+            android:id="@+id/verticalSeperator2"
+            android:layout_width="5dp"
+            android:layout_height="182dp"
+            android:background="?attr/colorControlHighlight" />
+
+    </LinearLayout>
+</LinearLayout>

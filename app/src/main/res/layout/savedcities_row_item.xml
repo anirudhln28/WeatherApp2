@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorButtonNormal"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_width="160dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/savedCityCountry"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:layout_width="150dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/savedCityTemp"
+            android:textAlignment="textEnd"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/savedCityDate"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/star_gray"
+            android:id="@+id/favoriteButton"
+            android:paddingTop="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
